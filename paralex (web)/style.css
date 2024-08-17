@@ -1,0 +1,58 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.pimg1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1a/24701-nature-natural-beauty.jpg
+    );
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkgxasJP6_CB8EVZ2rAUIR9kK28E19QDC2JAXKO-6u6pTUSAa-xkKYGHC94pCRj1UprVg&usqp=CAU);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(https://thumbs.dreamstime.com/b/scenic-nature-landscape-path-near-lake-forest-path-tunnel-trees-near-lake-scenic-nature-autumn-landscape-panorama-view-115358410.jpg );
+    min-height: 400px;
+}
+
+.pimg1 ,.pimg2 ,.pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textbg{
+    background-color: #313533;
+    color: aliceblue;
+    padding: 20px;
+}
+.section{
+    font-size: 20px;
+    padding: 50px  80px;
+    text-align: center;
+}
+.section-light{
+    background-color: aliceblue;
+    color: #313533;
+}
+.section-dark{
+    background-color: rgb(17, 18, 19);
+    color: #ebf1ee;
+}
+@media only screen and (max-width:1760px)
